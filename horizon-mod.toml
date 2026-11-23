@@ -5,7 +5,8 @@ description = "Unofficial Simple Voice Chat native mod for Horizon Minecraft"
 authors = ["Orindev-889"]
 license = "MIT"
 api = "0.2"
-side = "both"
+side = "client"
+capabilities = ["registries"]
 
 [native]
 game = "26.3"
