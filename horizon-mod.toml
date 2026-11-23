@@ -1,0 +1,13 @@
+id = "simple_voice_chat"
+name = "Simple Voice Chat"
+version = "1.0.0"
+description = "Unofficial Simple Voice Chat native mod for Horizon Minecraft"
+authors = ["Orindev-889"]
+license = "MIT"
+api = "0.2"
+side = "both"
+
+[native]
+game = "26.3"
+horizon = "fdc87aecdbd116bf1e08adcd062fcbaea8c2e2ca"
+mixins = "5a64af938ec86b00d53d16a408aabc0038fb3e57"

@@ -1,6 +1,8 @@
 ﻿target/
 **/*.rs.bk
 *.hnmod
+*.hmod
 *.zip
 .DS_Store
 Thumbs.db
+

@@ -7,7 +7,7 @@
 
 ## Возможности
 
-- **Качественный звук:** Встроенный кодек Opus (libopus) и нативный захват/воспроизведение аудио через Windows WASAPI (`cpal`).
+- **Качественный звук:** Встроенный кодек Opus (libopus) и нативный захват/воспроизведение аудио (`cpal`: Windows WASAPI, Linux ALSA/PulseAudio).
 - **Режимы передачи:**
   * Push-to-Talk (рация) — клавиша по умолчанию: `~` (Grave Accent).
   * Голосовая активация с регулируемым порогом чувствительности.
@@ -33,11 +33,12 @@
 3. Нажмите **«Добавить с GitHub»**.
 4. Лаунчер автоматически загрузит мод и скомпилирует его при следующем запуске игры!
 
-### Способ 2: Ручная установка файла `.hnmod`
-1. Скачайте файл `simple_voice_chat.hnmod` из раздела [Releases](../../releases).
+### Способ 2: Ручная установка файла `.hmod`
+1. Скачайте файл `simple_voice_chat.hmod` из раздела [Releases](../../releases).
 2. Поместите его в папку модов Horizon:
-   `%APPDATA%\horizon\horizon-native-mods\simple_voice_chat.hnmod`
-3. Перезапустите лаунчер Horizon или обновите список модов.
+   - Windows: `%APPDATA%\horizon\horizon-mods\simple_voice_chat.hmod`
+   - Linux: `~/.config/horizon/horizon-mods/simple_voice_chat.hmod`
+3. В лаунчере Horizon включите мод в списке и нажмите «Играть».
 
 ---
 
