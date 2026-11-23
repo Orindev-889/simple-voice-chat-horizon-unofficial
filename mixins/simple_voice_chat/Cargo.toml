@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/svc_client"]
+resolver = "3"
