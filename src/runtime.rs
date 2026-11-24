@@ -6,6 +6,8 @@
     use std::time::Instant;
     #[allow(unused_imports)]
     use ::simple_voice_chat::svc_client;
+    #[allow(unused_imports)]
+    use crate::svc_client;
     pub use svc_client::runtime::{state, Glue};
     static OUT: Mutex<Vec<(String, Vec<u8>)>> = Mutex::new(Vec::new());
     fn locked() -> std::sync::MutexGuard<'static, Glue> {
