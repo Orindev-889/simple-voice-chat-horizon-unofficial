@@ -10,6 +10,7 @@ use std::path::PathBuf;
 fn main() {
     let manifest = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap());
     let candidates = [
+        manifest.join("data/simple_voice_chat/opus"),
         manifest.join("data/opus"),
         manifest.join("native-data/simple_voice_chat/opus"),
         manifest.join("../../data/opus"),
