@@ -36,7 +36,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "config.h"
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 /* Second order ARMA filter, alternative implementation */
 void silk_biquad_alt_stride1(

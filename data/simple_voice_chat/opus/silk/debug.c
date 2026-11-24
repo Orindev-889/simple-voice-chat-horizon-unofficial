@@ -34,7 +34,7 @@ typedef int prevent_empty_translation_unit_warning;
 #include "debug.h"
 
 #if SILK_DEBUG || SILK_TIC_TOC
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #endif
 
 #if SILK_TIC_TOC

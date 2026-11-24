@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "main_FIX.h"
 #define silk_encoder_state_Fxx      silk_encoder_state_FIX
 #else
-#include "main_FLP.h"
+#include "main_flp.h"
 #define silk_encoder_state_Fxx      silk_encoder_state_FLP
 #endif
 #include "stack_alloc.h"

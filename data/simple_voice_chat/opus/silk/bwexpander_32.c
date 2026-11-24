@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "config.h"
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 /* Chirp (bandwidth expand) LP AR filter.
    This logic is reused in _celt_lpc(). Any bug fixes should also be applied there. */

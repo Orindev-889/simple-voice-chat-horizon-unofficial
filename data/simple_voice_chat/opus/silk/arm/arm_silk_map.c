@@ -29,8 +29,8 @@ POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 #include "main_FIX.h"
-#include "NSQ.h"
-#include "SigProc_FIX.h"
+#include "nsq.h"
+#include "sigproc_fix.h"
 
 #if defined(OPUS_HAVE_RTCD)
 

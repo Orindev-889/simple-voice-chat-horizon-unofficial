@@ -31,7 +31,7 @@
 
 #include "celt/x86/x86cpu.h"
 #include "structs.h"
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #include "pitch.h"
 #include "main.h"
 

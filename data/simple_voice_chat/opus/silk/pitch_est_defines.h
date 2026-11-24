@@ -28,7 +28,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef SILK_PE_DEFINES_H
 #define SILK_PE_DEFINES_H
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 /********************************************************/
 /* Definitions for pitch estimator                      */

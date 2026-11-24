@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "config.h"
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 /* Coefficients for 2-band filter bank based on first-order allpass filters */
 static opus_int16 A_fb1_20 = 5394 << 1;

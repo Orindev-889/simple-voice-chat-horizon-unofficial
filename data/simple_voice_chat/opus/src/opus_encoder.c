@@ -33,7 +33,7 @@
 #include "celt.h"
 #include "entenc.h"
 #include "modes.h"
-#include "API.h"
+#include "api.h"
 #include "stack_alloc.h"
 #include "float_cast.h"
 #include "opus.h"
@@ -48,7 +48,7 @@
 #ifdef FIXED_POINT
 #include "fixed/structs_FIX.h"
 #else
-#include "float/structs_FLP.h"
+#include "float/structs_flp.h"
 #endif
 
 #define MAX_ENCODER_BUFFER 480

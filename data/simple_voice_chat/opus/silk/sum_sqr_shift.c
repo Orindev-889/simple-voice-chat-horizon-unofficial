@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "config.h"
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 /* Compute number of bits to right shift the sum of squares of a vector */
 /* of int16s to make it fit in an int32                                 */

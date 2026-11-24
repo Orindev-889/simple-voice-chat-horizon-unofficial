@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 extern "C" {
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #include "resampler_structs.h"
 #include "resampler_rom.h"
 

@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #define SILK_STRUCTS_H
 
 #include "typedef.h"
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #include "define.h"
 #include "entenc.h"
 #include "entdec.h"

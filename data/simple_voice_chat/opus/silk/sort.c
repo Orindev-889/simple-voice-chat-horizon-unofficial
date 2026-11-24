@@ -35,7 +35,7 @@ POSSIBILITY OF SUCH DAMAGE.
 /*                                                           */
 /* Shell short:    https://en.wikipedia.org/wiki/Shell_sort  */
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 void silk_insertion_sort_increasing(
     opus_int32           *a,             /* I/O   Unsorted / Sorted vector               */

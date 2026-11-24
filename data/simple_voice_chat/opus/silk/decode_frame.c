@@ -31,7 +31,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 #include "main.h"
 #include "stack_alloc.h"
-#include "PLC.h"
+#include "plc.h"
 
 /****************/
 /* Decode frame */

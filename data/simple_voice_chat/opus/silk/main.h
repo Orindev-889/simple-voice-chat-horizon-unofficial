@@ -28,11 +28,11 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef SILK_MAIN_H
 #define SILK_MAIN_H
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #include "define.h"
 #include "structs.h"
 #include "tables.h"
-#include "PLC.h"
+#include "plc.h"
 #include "control.h"
 #include "debug.h"
 #include "entenc.h"
@@ -43,7 +43,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 #if (defined(OPUS_ARM_ASM) || defined(OPUS_ARM_MAY_HAVE_NEON_INTR))
-#include "arm/NSQ_del_dec_arm.h"
+#include "arm/nsq_del_dec_arm.h"
 #endif
 
 /* Convert Left/Right stereo signal to adaptive Mid/Side representation */

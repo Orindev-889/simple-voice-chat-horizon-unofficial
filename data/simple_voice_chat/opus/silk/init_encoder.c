@@ -31,7 +31,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifdef FIXED_POINT
 #include "main_FIX.h"
 #else
-#include "main_FLP.h"
+#include "main_flp.h"
 #endif
 #include "tuning_parameters.h"
 #include "cpu_support.h"

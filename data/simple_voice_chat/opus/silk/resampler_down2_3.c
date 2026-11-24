@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "config.h"
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #include "resampler_private.h"
 #include "stack_alloc.h"
 

@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "config.h"
 #endif
 
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 
 opus_int32 silk_inner_prod_aligned_scale(
     const opus_int16 *const     inVec1,             /*    I input vector 1                                              */

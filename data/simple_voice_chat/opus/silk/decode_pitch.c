@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 /***********************************************************
 * Pitch analyser function
 ********************************************************** */
-#include "SigProc_FIX.h"
+#include "sigproc_fix.h"
 #include "pitch_est_defines.h"
 
 void silk_decode_pitch(

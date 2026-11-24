@@ -42,7 +42,7 @@
 #include "opus.h"
 #include "entdec.h"
 #include "modes.h"
-#include "API.h"
+#include "api.h"
 #include "stack_alloc.h"
 #include "float_cast.h"
 #include "opus_private.h"
