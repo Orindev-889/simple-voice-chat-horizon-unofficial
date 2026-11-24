@@ -1,0 +1,17 @@
+[package]
+name = "simple_voice_chat"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Simple Voice Chat native mod for Horizon"
+
+[dependencies]
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }
+svc_client = { path = "crates/svc_client" }
+
+[workspace]
+members = [
+    ".",
+    "crates/svc_client",
+]
